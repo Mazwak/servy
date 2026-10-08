@@ -25,7 +25,7 @@ jobs:
       SEVEN_ZIP_HASH: "d64a0468f5b5b0b0fc5b2188450bcd655b70809d97b1c4535f2884635094377d"
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Get version
         shell: pwsh
